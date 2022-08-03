@@ -9,7 +9,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-    text-align: center;
+  
 }
 .cabecalhopaginas{
     background-image: url("imagens/banner2.png");
@@ -23,6 +23,7 @@
     margin-left: auto;
     margin-bottom: 0;
     text-align: right;
+  
 }
 body{
     text-align: center;
@@ -35,6 +36,12 @@ body{
     background-image: url("imagens/rodape.png");
     width: 369px;
     height: 99px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 } 
 .elenco{
     column-count: 2;
@@ -43,9 +50,14 @@ body{
     margin-top: 0 px;
 
 }
+
 .sinopse{
     font-size: 18px;
     text-align: justify;
     width: 300px;
+    margin: 0;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
