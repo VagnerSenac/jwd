@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="theme-color" content="black">
+    <link rel="android-touch-icon" href="icone.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://vagnersenac.github.io/jwd/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWD-Menu</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <script>
+        if ('serviceWorker' in navigator){
+            navigator.serviceWorker.register('sw.js')
+            .then(function () {
+                console.log('service worker registered');
+            })
+            .catch(function () {
+                console.warn('service worker failed');
+            });
+        }
+    </script>
+    <header class="cabecalho"> 
+    </header> 
+    <div class="menu">
+        <a href="sinopse.html"><img src="imagens/sinopse.png"></a>
+        <a href="trailer.html"><img src="imagens/trailers.png"> </a>
+        <br><br>
+        <a href="elenco.html"><img src="imagens/elenco.png"></a>
+        <a href="fotos.html"><img src="imagens/fotos.png"></a> 
+        <br><br>
+        <a href="http://www.ingresso.com"><img src="imagens/ingresso.png"> </a>
+    </div>
+    <div class="rodape">
+    </div>
+</body>
+</html>

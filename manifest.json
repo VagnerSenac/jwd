@@ -1,0 +1,14 @@
+{
+  "name": "JDW",
+  "short_name": "JWD",
+  "theme_color": "#010508",
+  "background_color": "#010508",
+  "display": "Fullscreen",
+  "Scope": "/index.html",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icone.png",
+      "sizes": "300x325",
+      "type": "image/png"
+    }
